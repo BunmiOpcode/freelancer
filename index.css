@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/*ROOT VARIABLEs*/
+:root{
+    --color-primary: #7380ec;
+    --color-danger: #f7c5c9;
+    --color-success: #b9f6e2;
+    --color-warning: #ffbb55;
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-info-light: #e0e4ed;
+    --color-dark: #363949;
+    /* --color-dark: #72e8ec; */
+    --color-light: rgba(125, 132, 201, 0.18);
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #ffff;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+
+}
+
+.navbar{
+    margin-bottom: 50px !important;
+    box-shadow: var(--box-shadow);
+}
+
+.firstsec{
+    background: var(--color-info-light);
+    margin-top: 100px !important;
+
+}
+
+.danger{
+   background: var(--color-danger);
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins, sans-serif;
+    font-size: 1rem;
+    background: var(--color-background);
+    user-select: none;
+    overflow-x: hidden;
+    color: var(--color-dark);
+}
+
+nav .container-fluid .navbar-brand{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.content span{
+    width:20%;
+
+}
+
+
+.content a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main section {
+    background: var(--color-info-light);
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.first-right img{
+    width: 100%;
+}
+
+.mid{
+    margin-top: 90px;
+}
+
+.links a{
+    margin-right: 10px;
+}
+
+.left-top .but a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8rem 0 0 0;
+    text-decoration: none;
+    padding: 0.7rem 0 0.7rem 0;
+}
+
+.left-top .but a:last-child{
+    background: var(--color-success);
+}
+
+.image{
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.tab{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    gap: 1rem;
+}
+
+tr{
+    line-height: 2rem;
+}
+
+.desc ul li{
+    list-style: square;
+    font-size: medium;
+}
+.desc p{
+    
+    font-size: medium;
+}
+
+.left-top p{
+    font-size: medium;
+}
+
+.navi {
+    padding: 0.8rem 0 0 0.8rem;
+}
+
+.navi a{
+    font-size: 15px;
+    margin-right: 2rem;
+    font-weight: bold;
+    display: inline;
+    
+}
+
+
+.navi a:hover{
+    color: black;
+}
+
+.navi a:last-child{
+    margin-left: 1rem;
+}
+
+.navi span{
+   line-height: 50px;
+   vertical-align: middle;
+   font-weight: normal;
+   
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background: #677483;
+}
+
+.subline{
+    width: 17.5%;
+    height: 2px;
+    background: red;
+}
+
+.secnav a{
+    font-size: 15px;
+    margin-right: 2rem;
+    display: inline;
+}
+
+.secnav span{
+    line-height: 50px;
+    vertical-align: middle;
+    
+    
+ }
+
+ .icon{
+     color: red;
+ }
+
+ .scrollbar {
+    height: 300px;
+    width: 100%;
+    background: #fff;
+    overflow-y:scroll;
+    margin-bottom: 25px;
+    overflow-x: hidden;
+ }
+
+.force-overflow {
+    min-height: 450px;
+}
+
+.no-padding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+.free{
+    display: none;
+}
+
+.left-top .free{
+    display: block;
+}
+
+.tab{
+    box-shadow: var(--box-shadow);
+}
+
+.pic img:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.card{
+    box-shadow: var(--box-shadow);
+}
+
+ @media screen and (max-width: 1200px) {
+
+    .container{
+        width: 95%;
+        
+    }
+
+    .forum a span{
+        display: none;
+    }
+
+    .free{
+        display: block;
+    }
+
+    .left-top .free{
+        display: none;
+    }
+
+    .firstsec .container{
+        margin-top: 0;
+    }
+
+    .secondsec{
+        display: none;
+    }
+
+    .align{
+        vertical-align: middle;
+    }
+
+    .mid{
+        margin-top: 12px;
+    }
+
+    .seccol{
+        display: none;
+    }
+
+}
